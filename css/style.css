@@ -55,14 +55,4 @@ header,
   width: 100%;
   position: absolute;
 }
-.carousel-control-next-icon:after {
-  content: '>';
-  font-size: 55px;
-  color: #ffffff;
-}
 
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color:#ffffff;
-}
