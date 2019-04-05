@@ -1,0 +1,57 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url(../img/intro1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.but {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.blog{
+  text-decoration: none;
+  color:gray !important;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.fa-youtube {
+  color: #fa2b05;
+}
+
+.fa-vk {
+  color: #0b5bb5;
+}
+
+.fa-telegram {
+  color: #313d4f;
+}
+
+.navbar-brand>img {
+  width: 64px;
+  height: 64px;
+}
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
